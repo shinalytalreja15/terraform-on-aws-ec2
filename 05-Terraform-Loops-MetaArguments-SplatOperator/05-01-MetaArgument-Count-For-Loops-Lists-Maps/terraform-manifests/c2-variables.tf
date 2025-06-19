@@ -1,12 +1,4 @@
 # Input Variables
-# mastertest2
-variable "mastertest2" {
-  description = "mastertest2"
-  type = string
-  default = "us-east-1"
-}
-
-
 # AWS Region
 variable "aws_region" {
   description = "Region in which AWS Resources to be created"
