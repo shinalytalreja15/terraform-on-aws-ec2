@@ -20,4 +20,11 @@ variable "instance_keypair" {
   default = "terraform-key"
 }
 
+# Newtest 
+variable "newtest" {
+  description = "newtest"
+  type = string
+  default = "terraform-key"
+}
+
 
