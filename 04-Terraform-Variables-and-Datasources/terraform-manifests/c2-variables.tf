@@ -21,8 +21,8 @@ variable "instance_keypair" {
 }
 
 # Newtest 
-variable "newtest" {
-  description = "newtest"
+variable "newtestModified" {
+  description = "newtestModified"
   type = string
   default = "terraform-key"
 }
